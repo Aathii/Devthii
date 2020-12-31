@@ -1,0 +1,84 @@
+body {
+  margin: 2em;
+}
+aside {
+    background: #1f8dd6; 
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); 
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .title.homepage { font-size: 8.6em; margin-bottom: 10px; }
+  
+  .tag .left, .tag .right { display: block; width: 100%; text-align: center; margin-bottom: 20px; float: none; }
+  
+  .tothetop { background-position: 70% 58%; }
+}
+
+.in{background-position: 76% 58%; position: relative;left: 200px; top: 15px ; 
+}
+
+.gi{background-position: 70% 58%; position: relative;left: 220px; top: 15px ; 
+
+  }
+
+  .pgbtmw {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 90px;
+    height: 90px;
+    background: #ffbf80 url('img/dotted-tile-bg.png');
+    margin-top: 300px;
+  }
+
+  .in{
+    background-position: 76% 58%; position: relative;left: 400px; top: 15px ; 
+    }
+
+  .gi{
+   background-position: 70% 58%; position: relative;left: 467px; top: 15px ; 
+  }
+  
+  .wrap, .medwrap, .smwrap {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1020px;
+  }
+  .smwrap {
+    max-width: 700px;
+  }
+  .medwrap {
+    max-width: 800px;
+  }
